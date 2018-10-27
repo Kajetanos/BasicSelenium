@@ -72,11 +72,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/SeleniumWithSpring/wp_rentals/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoditionProductTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/SeleniumWithSpring/CoditionProductTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -88,11 +97,6 @@
               <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SeleniumWithSpring.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumWithSpring.iml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="spring-config.xml" pinned="false" current-in-tab="false">
@@ -169,10 +173,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
+    <option name="x" value="1505" />
     <option name="y" value="-4" />
-    <option name="width" value="1375" />
-    <option name="height" value="904" />
+    <option name="width" value="1301" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -180,9 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,6 +311,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SeleniumWithSpringApplication">
+  <component name="RunManager" selected="TestNG.CoditionProductTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -372,6 +376,35 @@
     <configuration name="SeleniumWithSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SeleniumWithSpring" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.selenium.SeleniumWithSpring.SeleniumWithSpringApplication" />
+    </configuration>
+    <configuration name="CoditionProductTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithSpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.SeleniumWithSpring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.selenium.SeleniumWithSpring" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.SeleniumWithSpring.CoditionProductTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration name="SeleniumWithSpringApplicationTests" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
       <module name="SeleniumWithSpring" />
@@ -457,9 +490,11 @@
       <item itemvalue="Spring Boot.SeleniumWithSpringApplication" />
       <item itemvalue="TestNG.SeleniumWithSpringApplicationTests" />
       <item itemvalue="TestNG.SeleniumWithSpringTest" />
+      <item itemvalue="TestNG.CoditionProductTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CoditionProductTest" />
         <item itemvalue="TestNG.SeleniumWithSpringTest" />
       </list>
     </recent_temporary>
@@ -507,6 +542,7 @@
       <workItem from="1531856960118" duration="889000" />
       <workItem from="1531858732901" duration="1008000" />
       <workItem from="1540323588572" duration="654000" />
+      <workItem from="1540676018656" duration="1040000" />
     </task>
     <servers />
   </component>
@@ -535,15 +571,18 @@
     <history-entry file="SeleniumWithSpringTest - 2018.05.18 at 20h 53m 18s.xml">
       <configuration name="SeleniumWithSpringTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="CoditionProductTest - 2018.10.28 at 00h 02m 17s.xml">
+      <configuration name="CoditionProductTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52056000" />
+    <option name="totallyTimeSpent" value="53096000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1375" height="904" extended-state="6" />
+    <frame x="1505" y="-4" width="1301" height="772" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32914573" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50036365" side_tool="true" weight="0.2977387" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -554,20 +593,20 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973786" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3253012" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2977387" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49963635" visible="true" weight="0.35692772" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36126056" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3253012" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="REST Client" order="8" />
@@ -729,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/SeleniumWithSpring/CoditionProductTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="56" column="9" selection-start-line="40" selection-start-column="7" selection-end-line="56" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/EntityManager.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/SeleniumWithSpring/SeleniumWithSpringApplication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -844,6 +876,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/SeleniumWithSpring/CoditionProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
         </state>
       </provider>
     </entry>
